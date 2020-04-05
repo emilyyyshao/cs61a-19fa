@@ -1,0 +1,40 @@
+{
+    "name": "Lab 7",
+    "endpoint": "cal/cs61a/sp20/lab07",
+    "src": [
+        "lab07.py",
+        "classes.py",
+        "tests/link.py"
+    ],
+    "tests": {
+        "tests/link.py": "ok_test",
+        "lab07.py:link_to_list": "doctest",
+        "lab07.py:cumulative_mul": "doctest",
+        "classes.py:Card.__init__": "doctest",
+        "classes.py:Card.power": "doctest",
+        "classes.py:Player.__init__": "doctest",
+        "classes.py:Player.draw": "doctest",
+        "classes.py:Player.play": "doctest",
+        "classes.py:TutorCard.effect": "doctest",
+        "classes.py:TACard.effect": "doctest",
+        "classes.py:ProfessorCard.effect": "doctest"
+    },
+    "default_tests": [
+        "link_to_list",
+        "cumulative_mul",
+        "link",
+        "Card.__init__",
+        "Card.power",
+        "Player.__init__",
+        "Player.draw",
+        "Player.play"
+    ],
+    "protocols": [
+        "restore",
+        "file_contents",
+        "unlock",
+        "grading",
+        "analytics",
+        "backup"
+    ]
+}

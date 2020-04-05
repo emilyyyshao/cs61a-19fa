@@ -1,0 +1,24 @@
+{
+    "name": "Lab 6",
+    "endpoint": "cal/cs61a/sp20/lab06",
+    "src": [
+        "lab06.py"
+    ],
+    "tests": {
+        "lab06.py": "doctest"
+    },
+    "default_tests": [
+        "make_adder_inc",
+        "scale",
+        "hailstone",
+        "make_fib"
+    ],
+    "protocols": [
+        "restore",
+        "file_contents",
+        "unlock",
+        "grading",
+        "analytics",
+        "backup"
+    ]
+}
